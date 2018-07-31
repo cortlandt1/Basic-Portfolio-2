@@ -7,7 +7,7 @@ body {
 }
 
 .main-container {
-    margin-top: 100px;
+    margin-top: 120px;
 
 }
 
@@ -17,10 +17,13 @@ body {
     margin: auto;
     width: 50%;
     padding: 10px;
+    border: 0.25px solid white;
 }
 
 .profile-image {
     float: left;
+    padding: 10px;
+    padding-right: 15px;
     max-width: 200px;
     max-height: 225px;
 }
@@ -28,11 +31,12 @@ body {
 .header {
     color: rgb(39, 39, 39);
     border-bottom: 2px solid rgb(39, 39, 39);
-    width: 915px;
+    max-width: 915px;
     padding-bottom: 10px;
 }
 
 .p-index {
+    line-height: 35px;
     padding: 10px;
     color: white;
 }
