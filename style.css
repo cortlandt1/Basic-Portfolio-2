@@ -2,6 +2,32 @@ body {
     background: url(../Basic-Portfolio-2/Assets/binding_dark_@2X.png)
 }
 
+/* #bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -20;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -20;
+} */
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .navbar {
     border-bottom: 1px solid #5e5959;
 }
@@ -12,12 +38,14 @@ body {
 }
 
 .content-box {
-    max-width: 960px;
     background-color: #5e5959;
     margin: auto;
-    width: 50%;
+    width: 100%;
     padding: 10px;
-    border: 0.25px solid white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    border-top: 0.25px solid white;
+    border-bottom: 0.25px solid white;
 }
 
 .profile-image {
@@ -33,6 +61,7 @@ body {
     border-bottom: 2px solid rgb(39, 39, 39);
     max-width: 915px;
     padding-bottom: 10px;
+    padding-left: 13px;
 }
 
 .p-index {
@@ -41,3 +70,44 @@ body {
     color: white;
 }
 
+.logo_container {  
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo_1 {
+    filter: grayscale(100%);
+    display: inline-block;
+    margin: 10px;     
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.logo_2 {
+    filter: grayscale(100%);
+    display: inline-block;
+    margin: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.logo_3 {
+    filter: grayscale(100%);
+    display: inline-block;
+    margin: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+footer {
+    text-align: center;
+    background: rgb(238, 238, 238);
+    /* clear: both; */
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;    
+}
