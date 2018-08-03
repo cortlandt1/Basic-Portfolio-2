@@ -1,6 +1,15 @@
-body {
+/* body {
     background: url(../Basic-Portfolio-2/Assets/binding_dark_@2X.png)
+} */
+
+body {
+    background-image: url("../Basic-Portfolio-2/Assets/yosemite.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 /* #bg {
     position: fixed;
@@ -23,18 +32,25 @@ body {
     z-index: -20;
 } */
 
-.row {
+.row { 
     margin-right: 0;
     margin-left: 0;
 }
 
 .navbar {
-    border-bottom: 1px solid #5e5959;
+    background: linear-gradient(-90deg, rgb(51, 53, 60), rgb(85, 95, 128));
+    border-bottom: 1px solid #1d1d1d;
 }
 
 .navbar-brand {
     font-weight: 500;
 }
+
+.nav-item {
+    color: black;
+}
+
+/* Home page main content styling */
 
 .main-container {
     margin-top: 120px;
@@ -42,14 +58,17 @@ body {
 }
 
 .content-box {
-    background-color: #245b70;
+    background-color: rgb(35, 92, 114, 0.9);
+    display: flex;
+    align-items: flex-start;
     margin: auto;
+    max-width: 960PX;
     width: 100%;
     padding: 10px;
     /* padding-left: 20px;
     padding-right: 20px; */
-    border-top: 0.25px solid white;
-    border-bottom: 0.25px solid white;
+    border-top: 0.25px solid rgb(34, 34, 34);
+    border-bottom: 0.25px solid rgb(34, 34, 34);
 }
 
 .profile-image {
@@ -58,7 +77,13 @@ body {
     padding-right: 15px;
     max-width: 200px;
     max-height: 225px;
+    transition: all .2s ease-in-out;
 }
+
+.profile-image:hover {
+    transform: scale(1.05)
+}
+
 
 .header {
     color: rgb(39, 39, 39);
@@ -75,10 +100,13 @@ body {
     color: white;
 }
 
+/* Clickable image link styling */
+
 .logo_container {  
     margin: auto;
-    text-align: center;
-    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .logo_1 {
@@ -87,6 +115,7 @@ body {
     margin: 10px;     
     max-width: 100px;
     max-height: 100px;
+    transition: all .2s ease-in-out;
 }
 
 
@@ -97,6 +126,7 @@ body {
     margin: 10px;
     max-width: 100px;
     max-height: 100px;
+    transition: all .2s ease-in-out;
 }
 
 .logo_3 {
@@ -106,12 +136,44 @@ body {
     margin: 10px;
     max-width: 100px;
     max-height: 100px;
+    transition: all .2s ease-in-out;
 }
+
+.logo_1:hover {
+    transform: scale(1.05);
+}
+
+.logo_2:hover {
+    transform: scale(1.05);
+}
+
+.logo_3:hover {
+    transform: scale(1.05);
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.portfolio-image {
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+    height: 200px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.col-md-6 {
+    display: block;
+    justify-content: space-between;
+}
+
+/* Footer styling */
 
 footer {
     text-align: center;
-    background: rgb(238, 238, 238);
-    /* clear: both; */
+    background: linear-gradient(-90deg, rgb(51, 53, 60), rgb(85, 95, 128));
     margin: auto;
     position: fixed;
     bottom: 0;
