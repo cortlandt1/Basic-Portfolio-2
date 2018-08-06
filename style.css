@@ -38,12 +38,15 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(-90deg, rgb(51, 53, 60), rgb(85, 95, 128));
+    background: linear-gradient(-90deg, rgb(43, 45, 51), rgb(65, 73, 99));
     border-bottom: 1px solid #1d1d1d;
 }
 
 .navbar-brand {
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .nav-item {
@@ -173,7 +176,7 @@ body {
 
 footer {
     text-align: center;
-    background: linear-gradient(-90deg, rgb(51, 53, 60), rgb(85, 95, 128));
+    background: linear-gradient(-90deg, rgb(43, 45, 51), rgb(65, 73, 99));
     margin: auto;
     position: fixed;
     bottom: 0;
