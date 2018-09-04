@@ -1,6 +1,3 @@
-/* body {
-    background: url(../Basic-Portfolio-2/Assets/binding_dark_@2X.png)
-} */
 
 body {
     background-image: url("../Basic-Portfolio-2/Assets/yosemite.jpg");
@@ -9,28 +6,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-
-/* #bg {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    z-index: -20;
-}
-
-#bg img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 50%;
-    min-height: 50%;
-    z-index: -20;
-} */
 
 .row { 
     margin-right: 0;
